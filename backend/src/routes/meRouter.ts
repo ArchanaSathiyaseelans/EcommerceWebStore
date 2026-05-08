@@ -1,6 +1,6 @@
 import { getAuth } from "@clerk/express";
 import { Router } from "express";
-import { error } from "node:console";
+
 import { getLocalUser } from "../lib/users";
 
 const router = Router();
