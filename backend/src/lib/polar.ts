@@ -1,4 +1,4 @@
-import type { Env } from "./env.ts";
+import type { Env } from "./env.js";
 
 type CheckoutCreateBody = {
   products: string[];
