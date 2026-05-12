@@ -12,7 +12,7 @@ import KeepAliveCron from "./lib/cron";
 import productRouter from "./routes/productRouter";
 import meRouter from "./routes/meRouter";
 import streamRouter from "./routes/streamRouter";
-import checkoutRouter from "./routes/checkoutRouter";
+import checkoutRouter from "./routes/streamRouter";
 
 const env = getEnv();
 const app = express();
